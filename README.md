@@ -16,7 +16,7 @@ The framework of the scene-illumination disentangled network (SIDNet).
 The detailed structure of (a) gradient retention module (GRM) and (b) contrast block.
 
 ## To Train
-Add VGG16.npy from to the file. Link:[here](链接：https://pan.baidu.com/s/18OZqwjMXaIxPbHIzKZmlzA?pwd=1xo5), in which the extraction code is: **1xo5**.
+Add VGG16.npy from to the file. Link:[here](https://pan.baidu.com/s/18OZqwjMXaIxPbHIzKZmlzA?pwd=1xo5), in which the extraction code is: **1xo5**.
 
 First Run ```**CUDA_VISIBLE_DEVICES=0 python decomposition.py**``` to train your model(SIDNet).
 
