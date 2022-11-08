@@ -16,6 +16,7 @@ The framework of the scene-illumination disentangled network (SIDNet).
 The detailed structure of (a) gradient retention module (GRM) and (b) contrast block.
 
 ## To Train
+Add VGG16.npy from to the file. Link:[here](链接：https://pan.baidu.com/s/18OZqwjMXaIxPbHIzKZmlzA?pwd=1xo5), in which the extraction code is: **1xo5**.
 
 First Run ```**CUDA_VISIBLE_DEVICES=0 python decomposition.py**``` to train your model(SIDNet).
 
@@ -26,14 +27,9 @@ The training data are selected from the LLVIP dataset. For convenient training, 
 The LLVIP dataset can be downloaded via the following link: [here](https://bupt-ai-cz.github.io/LLVIP/).
 
 ## To Test
+The checkpoint can be found via the following link: [here](https://pan.baidu.com/s/1fcqkGc3F1fGsY8CaUcM4sA?pwd=dv3s in which the extraction code is: **dv3s**.
 
 Run ```**CUDA_VISIBLE_DEVICES=0 python test.py**``` to test the whole model.
-
-## Recommended Environment
-The environment can be installed by XXY_DIVFusion.yaml: [here](https://github.com/Xinyu-Xiang/DIVFusion/blob/main/XXY_DIVFusion.yaml) 
-
-Run ```**conda env create -f XXY_DIVFusion.yaml**```
-
 ## Demo
 ![Demo](https://github.com/Xinyu-Xiang/DIVFusion/blob/main/Figure/Example.png)
 Nighttime infrared and visible image fusion results.
