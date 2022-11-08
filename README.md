@@ -15,6 +15,9 @@ The framework of the scene-illumination disentangled network (SIDNet).
 ![The architecture of the real-time infrared and visible image fusion network based on gradient residual dense block.](https://github.com/Xinyu-Xiang/DIVFusion/blob/main/Figure/TCEFNet.png)
 The detailed structure of (a) gradient retention module (GRM) and (b) contrast block.
 
+## Before Train
+```**conda env create -f XXY_DIVFusion.yml**```
+
 ## To Train
 Add VGG16.npy from to the file. Link:[here](https://pan.baidu.com/s/18OZqwjMXaIxPbHIzKZmlzA?pwd=1xo5), in which the extraction code is: **1xo5**.
 
