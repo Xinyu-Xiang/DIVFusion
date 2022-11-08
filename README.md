@@ -30,7 +30,8 @@ The training data are selected from the LLVIP dataset. For convenient training, 
 The LLVIP dataset can be downloaded via the following link: [here](https://bupt-ai-cz.github.io/LLVIP/).
 
 ## To Test
-The checkpoint can be found via the following link: [here](https://pan.baidu.com/s/1fcqkGc3F1fGsY8CaUcM4sA?pwd=dv3s) in which the extraction code is: **dv3s**.
+The checkpoint can be found via the following link: [here](https://pan.baidu.com/s/1fcqkGc3F1fGsY8CaUcM4sA?pwd=dv3s), in which the extraction code is: **dv3s**.
+The testing data are selected from the LLVIP dataset. link: [here](https://pan.baidu.com/s/1DA1VprRaV58n0ueB7C1Hbw?pwd=6hvf) The extraction code is: **6hvf**
 
 Run ```**CUDA_VISIBLE_DEVICES=0 python test.py**``` to test the whole model.
 ## Demo
