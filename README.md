@@ -64,7 +64,9 @@ object detection.
   title={DIVFusion: Darkness-free infrared and visible image fusion},
   author={Tang, Linfeng and Xiang, Xinyu and Zhang, Hao and Gong, Meiqi and Ma, Jiayi},
   journal={Information Fusion},
-  year={2022},
+  volume = {91},
+  pages = {477-493},
+  year = {2023},
   publisher={Elsevier}
 }
 ```
