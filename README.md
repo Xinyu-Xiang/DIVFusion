@@ -60,7 +60,7 @@ object detection.
 
 ## If this work is helpful to you, please cite it as：
 ```
-@article{tang2022divfusion,
+@article{Tang2022DIVFusion,
   title={DIVFusion: Darkness-free infrared and visible image fusion},
   author={Tang, Linfeng and Xiang, Xinyu and Zhang, Hao and Gong, Meiqi and Ma, Jiayi},
   journal={Information Fusion},
