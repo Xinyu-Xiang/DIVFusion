@@ -26,6 +26,7 @@ First Run ```**CUDA_VISIBLE_DEVICES=0 python decomposition.py**``` to train your
 Second Run ```**CUDA_VISIBLE_DEVICES=0 python fusion_enhancement_new.py**``` to train your model(TCEFNet).
 
 The training data are selected from the LLVIP dataset. For convenient training, users can download the training dataset from [here](https://pan.baidu.com/s/1i5dIXJcus8_qy9Rq8DQWcw?pwd=he31), in which the extraction code is: **he31**.
+Dataset should be send in ./ours_dataset_240/train/  ./ours_dataset_240/test/
 
 The LLVIP dataset can be downloaded via the following link: [here](https://bupt-ai-cz.github.io/LLVIP/).
 
