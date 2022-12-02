@@ -16,7 +16,7 @@ The framework of the scene-illumination disentangled network (SIDNet).
 The detailed structure of (a) gradient retention module (GRM) and (b) contrast block.
 
 ## Before Train
-```**conda env create -f XXY_DIVFusion.yml**```
+```**conda env create -f XXY_DIVFusion.yaml**```
 
 ## To Train
 Add VGG16.npy from to the file. Link:[here](https://pan.baidu.com/s/18OZqwjMXaIxPbHIzKZmlzA?pwd=1xo5), in which the extraction code is: **1xo5**.
@@ -35,6 +35,15 @@ The checkpoint can be found via the following link: [here](https://pan.baidu.com
 The testing data are selected from the LLVIP dataset. link: [here](https://pan.baidu.com/s/1DA1VprRaV58n0ueB7C1Hbw?pwd=6hvf) The extraction code is: **6hvf**
 
 Run ```**CUDA_VISIBLE_DEVICES=0 python test.py**``` to test the whole model.
+
+##Recommended Environment
+```
+numpy=1.19.2
+opencv=3.4.2
+python=3.6.12
+tensorflow-gpu=1.14.0
+scipy==1.5.4
+```
 ## Demo
 ![Demo](https://github.com/Xinyu-Xiang/DIVFusion/blob/main/Figure/Example.png)
 Nighttime infrared and visible image fusion results.
