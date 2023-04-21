@@ -168,7 +168,6 @@ for epoch in range(start_epoch, epoch):
             train_vi_data[image_id] = np.reshape(train_vi_data[image_id], [1024, 1280, 1])
             h, w, _= train_ir_data[image_id].shape
             y = random.randint(0, h - patch_size_y - 1)
-            #  返回参数1与参数2之间的任一整数，我草这也是个不错的处理方式，比浩哥的那个虽然不那么合理，但是简单
             x = random.randint(0, w - patch_size_x - 1)
             # rand_mode = random.randint(0, 7)
             # batch_input_low[patch_id, :, :, :] = data_augmentation(train_low_data[image_id][y: y+patch_size_y, x: x+patch_size_x, :], rand_mode)
